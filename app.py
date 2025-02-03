@@ -122,7 +122,7 @@ st.sidebar.title("Black-Scholes Option Price and GreeksCalculator")
 
 st.sidebar.write("`Created by:`")
 linkedin_url = "https://www.linkedin.com/in/jeevanba273/"
-st.sidebar.markdown(f'<a href="{linkedin_url}" target="_blank" style="text-decoration: none; color: blue;"><img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" width="25" height="25" style="vertical-align: middle; margin-right: 10px;">`JEEVAN B A`</a>', unsafe_allow_html=True)
+st.sidebar.markdown(f'<a href="{linkedin_url}" target="_blank" style="text-decoration: none; color: white;"><img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" width="25" height="25" style="vertical-align: middle; margin-right: 10px;">`JEEVAN B A`</a>', unsafe_allow_html=True)
 
 st.sidebar.header("Option Parameters")
 
