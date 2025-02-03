@@ -243,7 +243,7 @@ for i, vol_ in enumerate(vol_values):
         put_values[i, j]  = black_scholes_put(s_, K_input, T_input, r_input, vol_)
 
 # Increase DPI to reduce blurriness; set interpolation='nearest' for crisper grid
-fig, (ax_call, ax_put) = plt.subplots(1, 2, figsize=(20, 9), dpi=2000)
+fig, (ax_call, ax_put) = plt.subplots(1, 2, figsize=(20, 9), dpi=200)
 
 # Call heatmap
 im_call = ax_call.imshow(
