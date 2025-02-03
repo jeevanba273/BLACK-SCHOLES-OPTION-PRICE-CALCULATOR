@@ -128,7 +128,7 @@ st.sidebar.header("Option Parameters")
 
 S_input = st.sidebar.number_input("Current Price (S)", value=100.0, step=1.0)
 K_input = st.sidebar.number_input("Strike Price (K)", value=100.0, step=1.0)
-T_input = st.sidebar.number_input("Time to Maturity (T) (Years)", value=1.0, step=0.25)
+T_input = st.sidebar.number_input("Time to Maturity (T) (in Years)", value=1.0, step=0.25)
 sigma_input = st.sidebar.number_input("Volatility (σ)", value=0.20, step=0.01)
 r_input = st.sidebar.number_input("Risk-Free Interest Rate (r)", value=0.05, step=0.01)
 
@@ -148,11 +148,11 @@ st.markdown("<br>", unsafe_allow_html=True)
 st.subheader("Selected Parameters")
 
 params = {
-    "Current Asset Price": [f"{S_input:.4f}"],
+    "Current Price": [f"{S_input:.4f}"],
     "Strike Price": [f"{K_input:.4f}"],
-    "Time to Maturity (Years)": [f"{T_input:.4f}"],
-    "Volatility (σ)": [f"{sigma_input:.4f}"],
-    "Risk-Free Rate (r)": [f"{r_input:.4f}"]
+    "Time to Maturity (in Years)": [f"{T_input:.4f}"],
+    "Volatility": [f"{sigma_input:.4f}"],
+    "Risk-Free Rate": [f"{r_input:.4f}"]
 }
 df_params = pd.DataFrame(params)
 st.table(df_params)
