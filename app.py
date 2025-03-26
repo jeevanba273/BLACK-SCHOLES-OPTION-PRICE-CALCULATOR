@@ -118,7 +118,7 @@ volatility, time decay, and more.
 ##############################################################################
 # 5) SIDEBAR INPUTS
 ##############################################################################
-st.sidebar.title("Black-Scholes Option Price and GreeksCalculator")
+st.sidebar.title("Black-Scholes Option Price and Greeks Calculator")
 
 st.sidebar.write("`Created by:`")
 linkedin_url = "https://www.linkedin.com/in/jeevanba273/"
