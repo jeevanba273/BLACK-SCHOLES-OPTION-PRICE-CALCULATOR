@@ -6,6 +6,9 @@ This project hosts a sleek Streamlit app that calculates **European call & put**
 ## Live Demo
 
 Check out the app here:  
+[**Black–Scholes Calculator**](https://black-scholes-option-price-calculator.up.railway.app/)
+
+ALternate Link:  
 [**Black–Scholes Calculator**](https://black-scholes-option-price-calculator.streamlit.app/)
 
 ## Features
